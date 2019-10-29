@@ -1,0 +1,6 @@
+C:\Users\forerogo\Downloads\EmailMarketingStrategy\CommonEntities\bin\Release\CommonEntities.dll
+C:\Users\forerogo\Downloads\EmailMarketingStrategy\CommonEntities\bin\Release\CommonEntities.pdb
+C:\Users\forerogo\Downloads\EmailMarketingStrategy\SourceLibraries\CommonEntities.dll
+C:\Users\forerogo\Downloads\EmailMarketingStrategy\SourceLibraries\CommonEntities.pdb
+C:\Users\forerogo\Downloads\EmailMarketingStrategy\CommonEntities\obj\Release\CommonEntities.dll
+C:\Users\forerogo\Downloads\EmailMarketingStrategy\CommonEntities\obj\Release\CommonEntities.pdb
