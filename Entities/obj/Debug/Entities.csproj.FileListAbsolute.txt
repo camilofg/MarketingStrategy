@@ -1,0 +1,7 @@
+C:\Users\camus\source\repos\Entities\bin\Debug\Entities.dll
+C:\Users\camus\source\repos\Entities\bin\Debug\Entities.pdb
+C:\Users\camus\source\repos\Entities\obj\Debug\Entities.dll
+C:\Users\camus\source\repos\Entities\obj\Debug\Entities.pdb
+C:\Users\camus\source\repos\Entities\bin\Debug\Newtonsoft.Json.dll
+C:\Users\camus\source\repos\Entities\bin\Debug\Newtonsoft.Json.xml
+C:\Users\camus\source\repos\Entities\obj\Debug\Entities.csproj.CopyComplete

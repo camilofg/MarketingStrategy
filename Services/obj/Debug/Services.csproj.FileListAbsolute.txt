@@ -1,0 +1,13 @@
+C:\Users\camus\source\repos\Services\bin\Debug\Services.dll
+C:\Users\camus\source\repos\Services\bin\Debug\Services.pdb
+C:\Users\camus\source\repos\Services\bin\Debug\BusinessLogic.dll
+C:\Users\camus\source\repos\Services\bin\Debug\Entities.dll
+C:\Users\camus\source\repos\Services\bin\Debug\HtmlAgilityPack.dll
+C:\Users\camus\source\repos\Services\bin\Debug\BusinessLogic.pdb
+C:\Users\camus\source\repos\Services\bin\Debug\Entities.pdb
+C:\Users\camus\source\repos\Services\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\camus\source\repos\Services\bin\Debug\HtmlAgilityPack.xml
+C:\Users\camus\source\repos\Services\obj\Debug\Services.csprojAssemblyReference.cache
+C:\Users\camus\source\repos\Services\obj\Debug\Services.csproj.CopyComplete
+C:\Users\camus\source\repos\Services\obj\Debug\Services.dll
+C:\Users\camus\source\repos\Services\obj\Debug\Services.pdb
