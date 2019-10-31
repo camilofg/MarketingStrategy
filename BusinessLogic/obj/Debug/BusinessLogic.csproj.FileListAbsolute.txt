@@ -1,0 +1,13 @@
+C:\Users\camus\source\repos\BusinessLogic\obj\Debug\BusinessLogic.csprojAssemblyReference.cache
+C:\Users\camus\source\repos\BusinessLogic\bin\Debug\BusinessLogic.dll
+C:\Users\camus\source\repos\BusinessLogic\bin\Debug\BusinessLogic.pdb
+C:\Users\camus\source\repos\BusinessLogic\bin\Debug\Entities.dll
+C:\Users\camus\source\repos\BusinessLogic\bin\Debug\HtmlAgilityPack.dll
+C:\Users\camus\source\repos\BusinessLogic\bin\Debug\Entities.pdb
+C:\Users\camus\source\repos\BusinessLogic\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\camus\source\repos\BusinessLogic\bin\Debug\HtmlAgilityPack.xml
+C:\Users\camus\source\repos\BusinessLogic\obj\Debug\BusinessLogic.csproj.CopyComplete
+C:\Users\camus\source\repos\BusinessLogic\obj\Debug\BusinessLogic.dll
+C:\Users\camus\source\repos\BusinessLogic\obj\Debug\BusinessLogic.pdb
+C:\Users\camus\source\repos\BusinessLogic\bin\Debug\Newtonsoft.Json.dll
+C:\Users\camus\source\repos\BusinessLogic\bin\Debug\Newtonsoft.Json.xml
