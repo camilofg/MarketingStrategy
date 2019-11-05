@@ -53,3 +53,7 @@ G:\Git Projects\MarketingStrategy\CreateConfigs\obj\Debug\CreateConfigs.csproj.G
 G:\Git Projects\MarketingStrategy\CreateConfigs\obj\Debug\CreateConfigs.csproj.CopyComplete
 G:\Git Projects\MarketingStrategy\CreateConfigs\obj\Debug\CreateConfigs.exe
 G:\Git Projects\MarketingStrategy\CreateConfigs\obj\Debug\CreateConfigs.pdb
+G:\Git Projects\MarketingStrategy\CreateConfigs\bin\Debug\CreateConfigs.exe.manifest
+G:\Git Projects\MarketingStrategy\CreateConfigs\bin\Debug\CreateConfigs.application
+G:\Git Projects\MarketingStrategy\CreateConfigs\obj\Debug\CreateConfigs.exe.manifest
+G:\Git Projects\MarketingStrategy\CreateConfigs\obj\Debug\CreateConfigs.application
