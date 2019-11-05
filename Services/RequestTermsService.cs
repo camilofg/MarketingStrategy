@@ -16,10 +16,10 @@ namespace Services
             _iRequestTerms = iRequestTerms;
         }
 
-        public Task<RootContainer> GetTermsAsync(string lang, Dictionary<TypeField, string> words_search,
+        public Task<List<Field>> GetTermsAsync(string lang, Dictionary<string, TypeField> words_search,
             TypeField typeField)
         {
-            return _iRequestTerms.GetTermsAsync(lang, words_search, typeField);
+            return _iRequestTerms.GetTermsAsync(lang, words_search);
         }
     }
 }

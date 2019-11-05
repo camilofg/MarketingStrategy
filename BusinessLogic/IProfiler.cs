@@ -7,8 +7,8 @@ using Entities;
 
 namespace BusinessLogic
 {
-    public interface IRequestTerms
+    public interface IProfiler
     {
-        Task<List<Field>> GetTermsAsync(string lang, Dictionary<string, TypeField> words_search);
+        List<int> GenerateProfile(List<Field> configsContainer, List<PersonProfile> persons);
     }
 }

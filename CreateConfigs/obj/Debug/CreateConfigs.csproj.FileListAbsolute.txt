@@ -25,3 +25,31 @@ C:\Users\camus\source\repos\CreateConfigs\bin\Debug\Newtonsoft.Json.xml
 C:\Users\camus\source\repos\CreateConfigs\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\camus\source\repos\CreateConfigs\bin\Debug\Unity.Abstractions.pdb
 C:\Users\camus\source\repos\CreateConfigs\bin\Debug\Unity.Container.pdb
+C:\Users\camus\source\repos\CreateConfigs\obj\Debug\CreateConfigs.Resources.resources
+G:\Git Projects\MarketingStrategy\CreateConfigs\bin\Debug\CreateConfigs.exe.config
+G:\Git Projects\MarketingStrategy\CreateConfigs\bin\Debug\CreateConfigs.exe
+G:\Git Projects\MarketingStrategy\CreateConfigs\bin\Debug\CreateConfigs.pdb
+G:\Git Projects\MarketingStrategy\CreateConfigs\bin\Debug\BusinessLogic.dll
+G:\Git Projects\MarketingStrategy\CreateConfigs\bin\Debug\Entities.dll
+G:\Git Projects\MarketingStrategy\CreateConfigs\bin\Debug\Newtonsoft.Json.dll
+G:\Git Projects\MarketingStrategy\CreateConfigs\bin\Debug\Services.dll
+G:\Git Projects\MarketingStrategy\CreateConfigs\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+G:\Git Projects\MarketingStrategy\CreateConfigs\bin\Debug\Unity.Abstractions.dll
+G:\Git Projects\MarketingStrategy\CreateConfigs\bin\Debug\Unity.Container.dll
+G:\Git Projects\MarketingStrategy\CreateConfigs\bin\Debug\HtmlAgilityPack.dll
+G:\Git Projects\MarketingStrategy\CreateConfigs\bin\Debug\BusinessLogic.pdb
+G:\Git Projects\MarketingStrategy\CreateConfigs\bin\Debug\Entities.pdb
+G:\Git Projects\MarketingStrategy\CreateConfigs\bin\Debug\Services.pdb
+G:\Git Projects\MarketingStrategy\CreateConfigs\bin\Debug\Newtonsoft.Json.xml
+G:\Git Projects\MarketingStrategy\CreateConfigs\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+G:\Git Projects\MarketingStrategy\CreateConfigs\bin\Debug\Unity.Abstractions.pdb
+G:\Git Projects\MarketingStrategy\CreateConfigs\bin\Debug\Unity.Container.pdb
+G:\Git Projects\MarketingStrategy\CreateConfigs\bin\Debug\HtmlAgilityPack.pdb
+G:\Git Projects\MarketingStrategy\CreateConfigs\bin\Debug\HtmlAgilityPack.xml
+G:\Git Projects\MarketingStrategy\CreateConfigs\obj\Debug\CreateConfigs.csprojAssemblyReference.cache
+G:\Git Projects\MarketingStrategy\CreateConfigs\obj\Debug\CreateConfigs.Form1.resources
+G:\Git Projects\MarketingStrategy\CreateConfigs\obj\Debug\CreateConfigs.Properties.Resources.resources
+G:\Git Projects\MarketingStrategy\CreateConfigs\obj\Debug\CreateConfigs.csproj.GenerateResource.cache
+G:\Git Projects\MarketingStrategy\CreateConfigs\obj\Debug\CreateConfigs.csproj.CopyComplete
+G:\Git Projects\MarketingStrategy\CreateConfigs\obj\Debug\CreateConfigs.exe
+G:\Git Projects\MarketingStrategy\CreateConfigs\obj\Debug\CreateConfigs.pdb

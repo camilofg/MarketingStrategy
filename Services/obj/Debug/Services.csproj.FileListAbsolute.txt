@@ -11,3 +11,16 @@ C:\Users\camus\source\repos\Services\obj\Debug\Services.csprojAssemblyReference.
 C:\Users\camus\source\repos\Services\obj\Debug\Services.csproj.CopyComplete
 C:\Users\camus\source\repos\Services\obj\Debug\Services.dll
 C:\Users\camus\source\repos\Services\obj\Debug\Services.pdb
+G:\Git Projects\MarketingStrategy\Services\bin\Debug\Services.dll
+G:\Git Projects\MarketingStrategy\Services\bin\Debug\Services.pdb
+G:\Git Projects\MarketingStrategy\Services\bin\Debug\BusinessLogic.dll
+G:\Git Projects\MarketingStrategy\Services\bin\Debug\Entities.dll
+G:\Git Projects\MarketingStrategy\Services\bin\Debug\HtmlAgilityPack.dll
+G:\Git Projects\MarketingStrategy\Services\bin\Debug\BusinessLogic.pdb
+G:\Git Projects\MarketingStrategy\Services\bin\Debug\Entities.pdb
+G:\Git Projects\MarketingStrategy\Services\bin\Debug\HtmlAgilityPack.pdb
+G:\Git Projects\MarketingStrategy\Services\bin\Debug\HtmlAgilityPack.xml
+G:\Git Projects\MarketingStrategy\Services\obj\Debug\Services.csprojAssemblyReference.cache
+G:\Git Projects\MarketingStrategy\Services\obj\Debug\Services.csproj.CopyComplete
+G:\Git Projects\MarketingStrategy\Services\obj\Debug\Services.dll
+G:\Git Projects\MarketingStrategy\Services\obj\Debug\Services.pdb

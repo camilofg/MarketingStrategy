@@ -11,3 +11,16 @@ C:\Users\camus\source\repos\BusinessLogic\obj\Debug\BusinessLogic.dll
 C:\Users\camus\source\repos\BusinessLogic\obj\Debug\BusinessLogic.pdb
 C:\Users\camus\source\repos\BusinessLogic\bin\Debug\Newtonsoft.Json.dll
 C:\Users\camus\source\repos\BusinessLogic\bin\Debug\Newtonsoft.Json.xml
+G:\Git Projects\MarketingStrategy\BusinessLogic\bin\Debug\BusinessLogic.dll
+G:\Git Projects\MarketingStrategy\BusinessLogic\bin\Debug\BusinessLogic.pdb
+G:\Git Projects\MarketingStrategy\BusinessLogic\bin\Debug\Entities.dll
+G:\Git Projects\MarketingStrategy\BusinessLogic\bin\Debug\HtmlAgilityPack.dll
+G:\Git Projects\MarketingStrategy\BusinessLogic\bin\Debug\Newtonsoft.Json.dll
+G:\Git Projects\MarketingStrategy\BusinessLogic\bin\Debug\Entities.pdb
+G:\Git Projects\MarketingStrategy\BusinessLogic\bin\Debug\HtmlAgilityPack.pdb
+G:\Git Projects\MarketingStrategy\BusinessLogic\bin\Debug\HtmlAgilityPack.xml
+G:\Git Projects\MarketingStrategy\BusinessLogic\bin\Debug\Newtonsoft.Json.xml
+G:\Git Projects\MarketingStrategy\BusinessLogic\obj\Debug\BusinessLogic.csprojAssemblyReference.cache
+G:\Git Projects\MarketingStrategy\BusinessLogic\obj\Debug\BusinessLogic.csproj.CopyComplete
+G:\Git Projects\MarketingStrategy\BusinessLogic\obj\Debug\BusinessLogic.dll
+G:\Git Projects\MarketingStrategy\BusinessLogic\obj\Debug\BusinessLogic.pdb

@@ -9,6 +9,6 @@ namespace Services
 {
     public interface IRequestTermsService
     {
-        Task<RootContainer> GetTermsAsync(string lang, Dictionary<TypeField, string> words_search, TypeField typeField);
+        Task<List<Field>> GetTermsAsync(string lang, Dictionary<string, TypeField> words_search, TypeField typeField);
     }
 }

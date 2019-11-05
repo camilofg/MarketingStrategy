@@ -7,8 +7,10 @@ using Entities;
 
 namespace BusinessLogic
 {
-    public interface IRequestTerms
+    public interface IFileManager
     {
-        Task<List<Field>> GetTermsAsync(string lang, Dictionary<string, TypeField> words_search);
+        List<PersonProfile> LoadFile(string Path);
+
+        string GenerateProfilesFile(List<int> listProfiles);
     }
 }

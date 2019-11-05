@@ -14,6 +14,9 @@ namespace CreateConfigs
         {
             DependencyInjector.Register<IRequestTermsService, RequestTermsService>();
             DependencyInjector.Register<IRequestTerms, RequestsTerms>();
+            DependencyInjector.Register<IServiceManager, ServiceManager>();
+            DependencyInjector.Register<IFileManager, FileManager>();
+            DependencyInjector.Register<IProfiler, Profiler>();
         }
     }
 }

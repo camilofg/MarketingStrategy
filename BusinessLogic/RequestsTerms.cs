@@ -14,29 +14,33 @@ namespace BusinessLogic
         static readonly HttpClient client = new HttpClient();
 
         private static string Url_Path = "https://synonyms.reverso.net/synonym/{0}/{1}";
-        private static RootContainer _fieldsContainer = new RootContainer { ContainerFields = new List<ListFields>() };
+        private static List<Field> _fieldsContainer = new List<Field>();
 
-        public static async Task<RootContainer> GetTermsAsync(string lang, Dictionary<TypeField, string> wordsSearch, TypeField typeField)
+        public static async Task<List<Field>> GetTermsAsync(string lang, Dictionary<string, TypeField> wordsSearch)
         {
+            List<Field> listConfigs = new List<Field>();
             foreach (var typeValue in Enum.GetValues(typeof(TypeField)))
             {
-                var filteredValues = wordsSearch.Where(x => x.Key == (TypeField)typeValue).Select(x => x.Value).ToList();
-                var fields = await ListFields(lang, filteredValues, (TypeField)typeValue);
-                _fieldsContainer.ContainerFields.Add(fields);
+                var filteredValues = wordsSearch.Where(x => x.Value == (TypeField)typeValue).Select(x => x.Key).ToList();
+                var fields = await Field(lang, filteredValues, (TypeField)typeValue, listConfigs);
+                _fieldsContainer = fields;
             }
             return _fieldsContainer;
         }
 
-        private static async Task<ListFields> ListFields(string lang, List<string> wordsSearch, TypeField typeField)
+        private static async Task<List<Field>> Field(string lang, List<string> wordsSearch, TypeField typeField,
+            List<Field> fields)
         {
-            var fields = new ListFields
-            {
-                TypeFields = typeField,
-                Fields = new List<Field>()
-            };
-
+            
             foreach (var word in wordsSearch)
             {
+                fields.Add(new Field
+                {
+                    Name = word,
+                    Multiplier = 500,
+                    TypeFields = typeField
+                });
+
                 string baseUrl = string.Format(Url_Path, lang, word);
                 using var client = new HttpClient();
                 string data = await client.GetStringAsync(baseUrl);
@@ -52,9 +56,10 @@ namespace BusinessLogic
                         var pivotField = new Field
                         {
                             Name = item.InnerText,
-                            Multiplier = 5
+                            Multiplier = 500,
+                            TypeFields = typeField
                         };
-                        fields.Fields.Add(pivotField);
+                        fields.Add(pivotField);
                     }
                 }
 
@@ -66,18 +71,19 @@ namespace BusinessLogic
                         var pivotField = new Field
                         {
                             Name = item.InnerText,
-                            Multiplier = 3
+                            Multiplier = 300,
+                            TypeFields = typeField
                         };
-                        fields.Fields.Add(pivotField);
+                        fields.Add(pivotField);
                     }
                 }
             }
             return fields;
         }
 
-        Task<RootContainer> IRequestTerms.GetTermsAsync(string lang, Dictionary<TypeField, string> wordsSearch, TypeField typeField)
+        Task<List<Field>> IRequestTerms.GetTermsAsync(string lang, Dictionary<string, TypeField> wordsSearch)
         {
-            return GetTermsAsync(lang, wordsSearch, typeField);
+            return GetTermsAsync(lang, wordsSearch);
         }
     }
 }

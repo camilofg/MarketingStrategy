@@ -49,7 +49,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FileManager.cs" />
+    <Compile Include="IFileManager.cs" />
+    <Compile Include="IProfiler.cs" />
     <Compile Include="IRequestTerms.cs" />
+    <Compile Include="Profiler.cs" />
     <Compile Include="RequestsTerms.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
