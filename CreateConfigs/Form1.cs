@@ -52,17 +52,7 @@ namespace CreateConfigs
             Gb_LoadFile.Enabled = false;
             MessageBox.Show("The profile file is being generated");
             var lang = groupBox1.Controls.OfType<RadioButton>().FirstOrDefault(x => x.Checked)?.Text.Substring(0, 2).ToLower();
-            //stubs for unit test
-            if (wordsSearch.Count == 0)
-            {
-                wordsSearch.Add("president", TypeField.Role);
-                wordsSearch.Add("manager", TypeField.Role);
-                wordsSearch.Add("technology", TypeField.Industry);
-                wordsSearch.Add("tech", TypeField.Industry);
-                wordsSearch.Add("software", TypeField.Industry);
-                wordsSearch.Add("education", TypeField.Industry);
-            }
-
+            
             var configObj = await _serviceManager.GetTermsAsync(lang, wordsSearch).ConfigureAwait(true);
             var recommendedProfiles = _serviceManager.GenerateProfile(configObj, _listPersons);
             var routeFile = _serviceManager.GenerateProfilesFile(recommendedProfiles);
